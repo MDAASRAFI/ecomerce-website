@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: .5s;
+}
+/* nav start here */
+nav{
+    background-color:#FBF8DD;
+
+}
+.navflex{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+width: 1111px;
+margin: auto;
+
+
+}
+.logo{
+width: 111px;
+
+
+}
+
+
+.logo img{
+   width: 100%; 
+   
+}
+
+.navflex ul{
+    display: flex;
+    
+}
+
+.navflex>ul>li{
+    padding: 0px 25px;
+    font-weight: bold;
+}
+
+.navflex i{
+    padding: 9px;
+}
+.navflex i:hover{
+    transform: scale(1.1);
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+/* hero area start */
+header{
+    background-image: url(img/young-japanese-man-portrait.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+    
+
+.headerflex{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    
+    height: 100vh;
+    margin: auto;
+}
+
+
+
+.headerflex{
+    width: 700px;
+    margin-right: 90px;
+}
+
+.ARRIVALS{
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+
+.headerflex>div>h1{
+    font-size: 90px;
+    margin: 10px 0px;
+
+
+}
+
+
+.headerflex>div>button{
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    margin: 30px 0px;
+    background-color: #FBF8DD;
+}
+
+.headerflex>div>button:hover{
+    transform: scale(1.1);
+    
+}
+
+
+/* main area :start */
+
+.secflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+    gap: 30px;
+   
+    
+}
+.container{
+    width: 1111px ;
+    margin: auto;
+
+}
+.productimg{
+    width: 200px;
+}
+.productimg>img{
+    width: 100%;
+}
+
+.product{
+
+    background-color: #FBF8DD;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.product>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product>div>p{
+    padding: 15px 0px;
+}
+
+.container>h2{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 50px;
+}
+
+.product:hover{
+    transform: scale(1.1);
+}
+/* footer sec stat here */
+.footercont{
+    width: 1111px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.same img{
+    width: 35px;
+    padding: 0px 5px;
+}
+
+.coppyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.same>h2{
+    padding-bottom: 10px;
+}
+.same>p{
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color:#C0D6E8 ;
+    margin-top: 30px;
+}
+
+
+
